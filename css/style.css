@@ -11505,8 +11505,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-fullwidth .rd-navbar-main-outer {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	
 	transition: .11s;
 }
 
