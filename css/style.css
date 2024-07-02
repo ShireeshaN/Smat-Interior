@@ -11605,7 +11605,7 @@ html:not(.lt-ie10) .not-animated {
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
-		margin-top: -20px;
+		margin-top: -40px;
 	}
 	.rd-navbar-fullwidth .rd-navbar-main > * {
 		flex-grow: 1;
