@@ -497,7 +497,7 @@ a:focus {
 }
 
 .section-header p {
-    color: #2078a4;
+    color: #3E259D ;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -2008,7 +2008,7 @@ a:focus {
 
 .contact .contact-item [class^="flaticon-"]::before {
     margin: 0;
-    color: black;
+    color: #FCC900 ;
     font-size: 40px;
 }
 
@@ -2019,7 +2019,7 @@ a:focus {
 }
 
 .contact .contact-text h2 {
-    color: black;
+    color: #FCC900 ;
     font-size: 20px;
     font-weight: 600;
 }
@@ -2079,7 +2079,7 @@ a:focus {
     padding: 16px 30px;
     font-size: 16px;
     font-weight: 600;
-    color: #2078a4;
+    color: white;
     background: #030f27;
     border: none;
     border-radius: 0;
