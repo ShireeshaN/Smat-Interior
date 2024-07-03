@@ -1983,11 +1983,11 @@ a:focus {
 }
 
 .contact .col-md-6:first-child {
-    background: #030f27;
+    background: #3E259D;
 }
 
 .contact .col-md-6:last-child {
-    background: #2078a4;
+    background: #FCC900;
 }
 
 .contact .contact-info {
@@ -2008,7 +2008,7 @@ a:focus {
 
 .contact .contact-item [class^="flaticon-"]::before {
     margin: 0;
-    color: #2078a4;
+    color: black;
     font-size: 40px;
 }
 
@@ -2019,7 +2019,7 @@ a:focus {
 }
 
 .contact .contact-text h2 {
-    color: #2078a4;
+    color: black;
     font-size: 20px;
     font-weight: 600;
 }
