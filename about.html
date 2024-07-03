@@ -153,22 +153,101 @@
            <!-- About Start -->
          <div class="pt-0 mt-0" style="background-color:#ebebeb
          ;">
-            <div class="container-xxl">
+            <div class="container-fluid  text-white backss">
                 <div class="container">
-                    <div class="row g-5">
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                            <img class="modi wow fadeInDown" src="img/videoplayback-unscreen.gif" />
-                            <div class="d-flex align-items-center giff mb-5 pt-5">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary bg-white"
-                                    style="width: 120px; height: 120px;">
-                                    <h1 class="display-1 mb-n2" data-toggle="counter-up">16</h1>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="d-flex flex-column align-items-center justify-content-center h-50 py-5 px-3 ">
+        
+                                <div class="mb-3 mr-5">
+        
+                                    <div class="cube ">
+                                        <div class="face front font-size:50px pt-5"><img class="imgs"
+                                                src="images/smatlogoo.png" alt=""></div>
+                                        <div class="face back pt-5 text-white">
+                                            <h1><br />16+ <br /> Exp</h1>
+                                        </div>
+                                        <div class="face right pt-5 text-white">
+                                            <h1><br /><br />Continue</h1>
+                                        </div>
+                                        <div class="face left pt-5 text-white">
+                                            <h1><br />Smat <br />Interior</h1>
+                                        </div>
+                                        <div class="face top"><img src="img/OIP-removebg-preview.png" alt=""></div>
+                                        <div class="face bottom"><img src="img/OIP-removebg-preview.png" alt=""></div>
+                                    </div>
                                 </div>
-                                <div class="ps-4">
-                                    <h3 class="text-dark">Years Working</h3>
-                                    <h3></h3>
-                                    <h3 class="mb-0">Experience</h3>
-                                </div>
+                                <style>
+                                    .cube {
+                                        width: 100px;
+                                        height: 100px;
+                                        transform-style: preserve-3d;
+                                        animation: rotateCube 4s infinite linear;
+                                        color: white
+                                    }
+        
+                                    .imgs {
+                                        padding-top:30px;
+                                        height: 170px;
+                                        width:180px;
+                                    }
+        
+                                    .face {
+                                        width: 200px;
+                                        height: 400px;
+                                        position: absolute;
+                                        text-align: center;
+                                        line-height: 100px;
+                                        font-size: 5px;
+                                        color: white;
+                                        font-weight: 800;
+                                        /* background-color: #205DA3; */
+                                        background-color: white;
+        
+        
+        
+                                        border: 5px solid #205DA3;
+                                    }
+        
+        
+        
+                                    .front {
+                                        transform: translateZ(100px);
+                                    }
+        
+                                    .back {
+                                        transform: rotateY(180deg) translateZ(100px);
+                                    }
+        
+                                    .right {
+                                        transform: rotateY(90deg) translateZ(100px);
+                                    }
+        
+                                    .left {
+                                        transform: rotateY(-90deg) translateZ(100px);
+                                    }
+        
+                                    .top {
+                                        transform: rotateX(90deg) translateZ(100px);
+                                    }
+        
+                                    .bottom {
+                                        transform: rotateX(-90deg) translateZ(100px);
+                                    }
+        
+                                    @keyframes rotateCube {
+                                        from {
+                                            transform: rotateY(0);
+                                        }
+        
+                                        to {
+                                            transform: rotateY(360deg);
+                                        }
+                                    }
+                                </style>
                             </div>
+        
+        
                         </div>
 
 
