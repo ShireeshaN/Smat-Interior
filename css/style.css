@@ -102,7 +102,7 @@ a:focus {
 }
 
 .top-bar .logo {
-    padding: 5px 0;
+ 
     text-align: left;
     overflow: hidden;
 }
@@ -178,7 +178,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #2078a4;
+    background: #3E259D;
     transition: .3s;
 }
 
@@ -197,7 +197,7 @@ a:focus {
 
 .nav-bar .navbar {
     height: 100%;
-    background: #2078a4 !important;
+    background: #3E259D !important;
     
 }
 
@@ -4718,3 +4718,6 @@ button {
     vertical-align: middle;
   }
   
+.backss{
+    background-color: #3E259D;
+}
