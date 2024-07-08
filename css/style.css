@@ -2894,22 +2894,22 @@ a:focus {
     
 }
 .page-header1 {
-    background: url(../img/k1.png) center center no-repeat;
+    background: url(../images/newbanns/1.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header2 {
-    background: url(../img/newimgs/bedsevicebanner.png) center center no-repeat;
+    background: url(../images/newbanns/4.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header3 {
-    background:url(../img/newkitchen/kitchenbanner.png) center center no-repeat;
+    background:url(../images/newbanns/6.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header4 {
-    background: url(../img/pageheros/3.png) center center no-repeat;
+    background: url(../images/newbanns/3.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
@@ -2929,12 +2929,12 @@ a:focus {
     height: 500px;
 }
 .page-header9 {
-    background: url(../img/pageheros/designgalleryim.png) center center no-repeat;
+    background: url(../images/newbanns/2.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header11 {
-    background: url(../img/contacthero.png) center center no-repeat;
+    background: url(../images/newbanns/7.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
