@@ -2929,12 +2929,12 @@ a:focus {
     height: 500px;
 }
 .page-header9 {
-    background: url(../images/newbanns/2.png) center center no-repeat;
+    background: url(../images/bann/1.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header11 {
-    background: url(../images/newbanns/7.png) center center no-repeat;
+    background: url(../images/bann/2.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
@@ -2945,6 +2945,13 @@ a:focus {
 .page-header13 {
     background: url(../img/cc.png) center center no-repeat;
     background-size: cover;
+    height: 500px;
+}
+.page-header55 {
+    background: url(../images/newbanns/5.png) center center no-repeat;
+ 
+    background-size: cover;
+    height: 500px;
 }
    
     @media(max-width:992px){
