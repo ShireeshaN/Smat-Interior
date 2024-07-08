@@ -705,37 +705,37 @@
 </div>
 
 
+<!--anim-->
 <div class="bodys">
     <section class="sections">
-        <section class="gal-sec">
-            <div class="gallery">
-                <img class="ims" src="img/bed room/4.png" alt="many clothes and pictures">
-                <img class="ims" src="images/wardrobessmat/2.png" alt="someone preparing artisanal coffee">
-                <img class="ims" src="img/bed room/8.png" alt="some tea">
-                <img class="ims" src="images/wardrobessmat/1.png" alt="an empty table in a restaurant">
-                <img class="ims" src="img/living room/3.png" alt="a laptop with a notebook">
-                <img class="ims" src="img/living room/9.png" alt="a laptop and many books around it">
-            </div>
-        </section>
-        <section class="text-sec pt-5">
-            <div class="text-content text-start">
-                <h1 style="color:#FCC900;" class="text-end">Inspiring Thoughts on Interior Design</h1>
-                <p class="text-end">Your home should tell the story of who you are, and be a collection of what you love</p>
-                <div class="text-center">
-                    <a href="https://wa.me/+918465922208"><button class="bu">Book Smat</button></a>
-                </div>
-            </div>
-        </section>
+      <section class="gal-sec">
+        <div class="gallery">
+            <img class="ims" src="img/bed room/4.png" alt="many clothes and pictures">
+            <img class="ims" src="images/wardrobessmat/2.png" alt="someone preparing artisanal coffee">
+            <img class="ims" src="img/bed room/8.png" alt="some tea">
+            <img class="ims" src="images/wardrobessmat/1.png" alt="an empty table in a restaurant">
+            <img class="ims" src="img/living room/3.png" alt="a laptop with a notebook">
+            <img class="ims" src="img/living room/9.png" alt="a laptop and many books around it">
+        </div>
+      </section>
+      <section class="text-sec pt-5">
+        <div class="text-content text-start">
+            <h1 style="color:#FCC900;" class="text-end">Inspiring Thoughts on Interior Design</h1>
+            <p class="text-end">Your home should tell the story of who you are, and be a collection of what you love</p>
+            <div class="text-center">
+            <a  href="https://wa.me/+918465922208"><button class="bu">Book Smat</button></a>
+        </div>
+        </div>
+      </section>
     </section>
-</div>
-
-<style>
-    .ims {
-        height: 100px; /* Increase the height */
-        width: 350px;  /* Increase the width */
+  </div>
+  <style>
+    .ims{
+        height:100px;
+        width:350px;
     }
     .gallery {
-        --s: 200px; /* Update this size as well */
+        --s: 100px; /* smaller image size */
         display: grid;
         transform-style: preserve-3d;
         animation: r 15s linear infinite;
@@ -759,16 +759,16 @@
     .gallery > img:nth-child(4) {--_a: 180deg}
     .gallery > img:nth-child(5) {--_a: 240deg}
     .gallery > img:nth-child(6) {--_a: 300deg}
-
+    
     .gallery::before {
         content: "";
         position: absolute;
         inset: -100%;
-        clip-path: polygon(50% 0, calc(50% + .866*50%) 25%, calc(50% + .866*50%) 75%, 50% 100%, calc(50% - .866*50%) 75%, calc(50% - .866*50%) 25%);
-      
+        clip-path: polygon(50% 0,calc(50% + .866*50%) 25%,calc(50% + .866*50%) 75%,50% 100%,calc(50% - .866*50%) 75%,calc(50% - .866*50%) 25%);
+        background:#FCC900;
         transform: translateZ(calc(var(--s)/2)) rotate(90deg);
     }
-
+    
     .sections {
         display: flex;
         flex-direction: column; /* Change to column layout for mobile */
@@ -787,7 +787,7 @@
         display: flex;
         justify-content: start; /* Center horizontally */
         align-items: start; /* Center vertically */
-        background-color:#FCC900;
+        background-color: #FCC900;
         overflow: hidden;
         width: 100%;
     }
@@ -796,7 +796,7 @@
         text-align: end;
         margin-top: 20px; /* Add margin to separate text from gallery on desktop */
     }
-
+  
     @media (max-width: 768px) {
         .gallery {
             margin-bottom: 20px; /* Add margin to separate gallery from text on mobile */
@@ -807,9 +807,7 @@
             order: 1; /* Change the order to display after the gallery */
         }
     }
-</style>
-  
-
+  </style>
 
 
 
