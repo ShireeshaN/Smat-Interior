@@ -278,6 +278,13 @@ a:focus {
     }
 }
 
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #3E259D;
+}
+
 
 /*******************************/
 /******** Carousel CSS *********/
