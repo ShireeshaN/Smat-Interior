@@ -2895,22 +2895,22 @@ a:focus {
     
 }
 .page-header1 {
-    background: url(../images/newbanns/1.png) center center no-repeat;
+    background: url(../images/bee/3.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header2 {
-    background: url(../images/newbanns/4.png) center center no-repeat;
+    background: url(../images/bedsrooms.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header3 {
-    background:url(../images/newbanns/6.png) center center no-repeat;
+    background:url(../images/bee/1.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
 .page-header4 {
-    background: url(../images/newbanns/3.png) center center no-repeat;
+    background: url(../images/bee/4.png) center center no-repeat;
     background-size: cover;
     height: 500px;
 }
@@ -2949,7 +2949,7 @@ a:focus {
     height: 500px;
 }
 .page-header55 {
-    background: url(../images/newbanns/5.png) center center no-repeat;
+    background: url(../images/baa.png) center center no-repeat;
  
     background-size: cover;
     height: 500px;
@@ -2968,7 +2968,18 @@ a:focus {
         .page-header55{
             height: 200px;
         }
-       
+        .page-header3{
+            height: 200px;
+        }
+        .page-header2{
+            height: 200px;
+        }
+        .page-header4{
+            height: 200px;
+        }
+        .page-header1{
+            height: 200px;
+        }
     }
   
   .testi{
