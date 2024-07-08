@@ -2188,7 +2188,7 @@ a:focus {
 
 .footer .footer-social a i {
     font-size: 15px;
-    color: #ffffff;
+    color: #FCC900;
 }
 
 .footer .footer-social a:hover {
@@ -2197,7 +2197,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #030f27;
+    color: #f5f6f8;
 }
 
 .footer .newsletter .form {
