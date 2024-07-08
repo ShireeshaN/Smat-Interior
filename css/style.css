@@ -2109,6 +2109,7 @@ a:focus {
     padding-top: 90px;
     background:black;
     color: #ffffff;
+    width:100%;
 }
 
 .footer .footer-contact,
