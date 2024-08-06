@@ -181,21 +181,23 @@
                         <div class="col-md-6">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <form  action="https://formsubmit.co/smatinteriors@gmail.com" method="POST">
+                                    <input type="hidden" name="_captcha" value="false">
+                                    
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" name="Name"/>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email"  name="Email"/>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" name="Subject" />
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="control-group">
-                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message" name="Message"></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div>
@@ -211,12 +213,14 @@
 
 
             <!-- Google Map Start -->
-    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.3s">
-        
-        
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15214.904058032274!2d78.4746215!3d17.5682266!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8f1199286013%3A0xa793026a4b41d8b5!2sSMAT%20Interiors!5e0!3m2!1sen!2sin!4v1720004270050!5m2!1sen!2sin" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+    <div class="container pt-5 px-0 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="row">
+            <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15214.904058032274!2d78.4746215!3d17.5682266!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8f1199286013%3A0xa793026a4b41d8b5!2sSMAT%20Interiors!5e0!3m2!1sen!2sin!4v1720004270050!5m2!1sen!2sin" height="450" style="width:100%; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+            </div>
         </div>
+
+    </div>
     <!-- Google Map End -->
 
 
