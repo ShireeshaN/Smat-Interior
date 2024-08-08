@@ -2057,6 +2057,7 @@ a:focus {
     background: transparent;
 }
 
+
 .contact .contact-form textarea {
     color: #ffffff;
     height: 185px;
@@ -2076,6 +2077,18 @@ a:focus {
   opacity: 1;
 }
 
+.contact .contact-form .form-control:hover {
+    color: #000000;
+    opacity: 1;
+  }
+
+.contact .contact-form .form-control:hover {
+    background-color: #ffffff;
+    opacity: 1;
+    color:black;
+  }
+
+
 .contact .contact-form .form-control::-ms-input-placeholder {
   color: #ffffff;
 }
@@ -2083,6 +2096,9 @@ a:focus {
 .contact .contact-form .form-control::-ms-input-placeholder {
   color: #ffffff;
 }
+.contact .contact-form .form-control::-ms-input-placeholder:hover {
+    background-color: #ffffff;
+  }
 
 .contact .contact-form .btn {
     padding: 16px 30px;
